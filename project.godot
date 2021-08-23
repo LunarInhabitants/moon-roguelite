@@ -10,7 +10,8 @@ config_version=4
 
 [application]
 
-config/name="MoonRoguleite"
+config/name="Moon-Roguelite"
+config/description="A roguelite based on the moon! Copyright Lunar Inhabitans 2021."
 run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
 

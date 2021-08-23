@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="PrismMesh" id=1]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+mesh = SubResource( 1 )
+material/0 = null
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.80663, -0.206229, 0.553911, 0, 0.937154, 0.348916, -0.591056, -0.281446, 0.755937, 1.81658, 1.05476, 2.462 )
